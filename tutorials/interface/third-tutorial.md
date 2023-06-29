@@ -1,6 +1,6 @@
 # Collect Coins along your journey
 
-## Introduction 
+## Introduction @unplugged
 
 In this tutorial you will make the robot move to the goal tile and collect coins along the way.
 
