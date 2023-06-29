@@ -6,8 +6,8 @@
 * name: Learning to move the robot
 * description: This will teach you how to move the robot along the tilemap and collect coins.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
-* bannerUrl: /img/interface/first-tutorial-robot-test-2.png
-* backgroundurl: /img/interface/third-tutorial-robot-test-2.gif
+* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/third-tutorial-robot-test-2.gif
 * primarycolor: #8E2EC4
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
