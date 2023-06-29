@@ -1,21 +1,22 @@
-# sample
-* name: Game Maker Guide
-* description: Level up your game making skills by completing the tutorials in this guide.
+# robot-test-2
+* name: Coding the Robot in Python
+* description: Learns the basics of python using the robot to move through the tilemap.
 
-## interface
-* name: Learn to use MakeCode Arcade
-* description: This will teach you how to complete tutorials in Microsoft MakeCode Arcade.
+## basic-robot
+* name: Learning to move the robot
+* description: This will teach you how to move the robot along the tilemap and collect coins.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 
-### interface-activity1
+### basic-activity1
 
-* name: Learn to use MakeCode Arcade
+* name: Meet the robot
 * type: tutorial
-* description: Intro to our tutorial cards
+* description: Help the robot reach the goal
 * tags: easy
+* next: basic-activity2
 
-* url: https://github.com/microsoft/pxt-skillmap-sample/tutorials/interface/activity1 
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-sample/main/img/interface/activity1.png
+* url: https://github.com/microsoft/pxt-skillmap-robot-test2/tutorials/interface/first-tutorial
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-robot-test-2/main/img/interface/activity1.png
 
 ## space
 * name: Design a Space Explorer
