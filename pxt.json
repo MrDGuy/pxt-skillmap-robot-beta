@@ -11,6 +11,7 @@
     "files": [
         "README.md",
         "skillmap.md",
+        "tutorials/interface/activity1.md",
         "tutorials/interface/first-tutorial.md",
         "tutorials/interface/second-tutorial.md",
         "tutorials/interface/third-tutorial.md"
