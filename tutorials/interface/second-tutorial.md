@@ -1,6 +1,6 @@
 # Navigate the Robot
 
-## Introduction 
+## Introduction @unplugged
 
 Move through the maze with the robot!
 
