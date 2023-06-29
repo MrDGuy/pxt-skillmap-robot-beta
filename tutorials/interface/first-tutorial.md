@@ -35,9 +35,6 @@ robot.turn_left()
 
 Move the robot to the goal square (blue square) to complete the program.
 
-```package
-  robot=github:mrdguy/robot-extension#45f0768a5e0c25e4123c6e65e56115a7d468331b
-```
 
 ```assetjson
 {
