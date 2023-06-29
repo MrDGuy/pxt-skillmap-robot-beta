@@ -15,7 +15,7 @@
 * tags: easy
 * next: basic-activity2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test2/tutorials/interface/first-tutorial
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/first-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
 
 ### basic-activity2
@@ -26,7 +26,7 @@
 * tags: easy
 * next: basic-activity3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test2/tutorials/interface/second-tutorial
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/second-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/seond-tutorial-robot-test-2.png
 
 
@@ -37,7 +37,7 @@
 * description: Help the robot reach the goal and avoid the walls while picking up coins
 * tags: easy
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test2/tutorials/interface/third-tutorial
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/third-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/third-tutorial-robot-test-2.gif
 
 
