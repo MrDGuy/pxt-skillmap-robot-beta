@@ -41,9 +41,6 @@ robot.turn_left()
     })
 ```
 
-```package
-  robot=github:mrdguy/robot-extension#45f0768a5e0c25e4123c6e65e56115a7d468331b
-```
 
 ```assetjson
 {
