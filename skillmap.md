@@ -16,7 +16,28 @@
 * next: basic-activity2
 
 * url: https://github.com/microsoft/pxt-skillmap-robot-test2/tutorials/interface/first-tutorial
-* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-robot-test-2/main/img/interface/activity1.png
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
+
+### basic-activity2
+
+* name: Navigate the Robot
+* type: tutorial
+* description: Help the robot reach the goal and avoid the walls
+* tags: easy
+* next: basic-activity3
+
+* url: https://github.com/microsoft/pxt-skillmap-robot-test2/tutorials/interface/second-tutorial
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-robot-test-2/main/img/interface/second-tutorial-robot-test-2.png
+
+### basic-activity3
+
+* name: Collect Coins with the robot
+* type: tutorial
+* description: Help the robot reach the goal and avoid the walls while picking up coins
+* tags: easy
+
+* url: https://github.com/microsoft/pxt-skillmap-robot-test2/tutorials/interface/third-tutorial
+* imageUrl: https://raw.githubusercontent.com/microsoft/pxt-skillmap-robot-test-2/main/img/interface/second-tutorial-robot-test-3.gif
 
 ## space
 * name: Design a Space Explorer
