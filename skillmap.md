@@ -2,7 +2,7 @@
 * name: Coding the Robot in Python
 * description: Learns the basics of python using the robot to move through the tilemap.
 * bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/skillmap-background.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/skillmap-background-2.png
 * primarycolor: #8E2EC4
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
