@@ -34,7 +34,7 @@
 * description: Help the robot reach the goal and avoid the walls
 * tags: easy, sequencing, events
 * next: basic-activity3
-* position 1 1
+* position: 1 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/second-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/seond-tutorial-robot-test-2.png
@@ -47,7 +47,7 @@
 * description: Help the robot reach the goal and avoid the walls while picking up coins
 * tags: easy, sequencing, events
 * next: basic-activity4
-* position 2 1
+* position: 2 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/third-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/third-tutorial-robot-test-2.gif
@@ -59,7 +59,7 @@
 * description: Place the coins as you see
 * tags: easy, sequencing, events
 * next: basic-activity5
-* position 3 1
+* position: 3 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fourth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif
@@ -71,7 +71,7 @@
 * description: You will create 1 letter with coins
 * tags: easy, sequencing, events
 * next: beginner-cert
-* position 4 1
+* position: 4 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fifth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
