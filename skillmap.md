@@ -58,9 +58,21 @@
 * type: tutorial
 * description: Place the coins as you see
 * tags: easy, sequencing, events
+* next: basic-activity5
 * position 3 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fourth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif
+
+### basic-activity5
+
+* name: Write your first initial with coins
+* type: tutorial
+* description: You will create 1 letter with coins
+* tags: easy, sequencing, events
+* position 4 0
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fifth-tutorial
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
 
 
