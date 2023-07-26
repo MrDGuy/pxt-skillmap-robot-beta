@@ -1,8 +1,8 @@
 # robot-test-2
 * name: Coding the Robot in Python
 * description: Learns the basics of python using the robot to move through the tilemap.
-* bannerUrl: /static/first-tutorial-robot-test-2.png
-* backgroundurl: /static/skillmap-background-2.png
+* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/first-tutorial-robot-test-2.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/skillmap-background-2.png
 * primarycolor: #8E2EC4
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
@@ -23,7 +23,7 @@
 * next: basic-activity2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/first-tutorial
-* imageUrl: /static/first-tutorial-robot-test-2.png
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/first-tutorial-robot-test-2.png
 
 ### basic-activity2
 
@@ -34,7 +34,7 @@
 * next: basic-activity3
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/second-tutorial
-* imageUrl: /static/seond-tutorial-robot-test-2.png
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/seond-tutorial-robot-test-2.png
 
 
 ### basic-activity3
@@ -46,7 +46,7 @@
 * next: basic-activity4
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/third-tutorial
-* imageUrl: /static/third-tutorial-robot-test-2.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/third-tutorial-robot-test-2.gif
 
 ### basic-activity4
 
@@ -56,6 +56,6 @@
 * tags: easy
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fourth-tutorial
-* imageUrl: /static/place-coin-robot.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif
 
 
