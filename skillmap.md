@@ -22,7 +22,7 @@
 * description: Help the robot reach the goal
 * tags: easy, events, commands
 * next: basic-activity2
-* position: 0 0
+* position: 0 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/first-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/first-tutorial-robot-test-2.png
@@ -34,7 +34,7 @@
 * description: Help the robot reach the goal and avoid the walls
 * tags: easy, sequencing, events
 * next: basic-activity3
-* position 1 0
+* position 1 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/second-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/seond-tutorial-robot-test-2.png
@@ -47,7 +47,7 @@
 * description: Help the robot reach the goal and avoid the walls while picking up coins
 * tags: easy, sequencing, events
 * next: basic-activity4
-* position 2 0
+* position 2 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/third-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/third-tutorial-robot-test-2.gif
@@ -59,7 +59,7 @@
 * description: Place the coins as you see
 * tags: easy, sequencing, events
 * next: basic-activity5
-* position 3 0
+* position 3 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fourth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif
@@ -70,9 +70,26 @@
 * type: tutorial
 * description: You will create 1 letter with coins
 * tags: easy, sequencing, events
-* position 4 0
+* next: beginner-cert
+* position 4 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fifth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
+
+
+### beginner-cert
+* name: Congrats!
+* kind: completion
+* type: certificate
+* url: /static/img/certificates/beginner-cert-03.pdf
+* imageUrl: /static/img/certificates/beginner-cert-03.png
+* position: 4 0
+* rewards:
+    * certificate:
+        * url: /static/img/certificates/beginner-cert-03.pdf
+        * preview: /static/img/certificates/beginner-cert-03.png
+    * completion-badge:
+        * image: /static/img/badges/badge-dino.png
+        * name: Basic Robot
 
 
