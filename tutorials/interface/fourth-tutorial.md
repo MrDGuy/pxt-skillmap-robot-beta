@@ -2,7 +2,8 @@
 
 ## Introduction @unplugged
 
-You will practice moving and turning the robot to reach the goal.
+You will practice moving and turning the robot to place coins at a specific location.
+![Place the coins here.](/static/place coin robot.gif "Using the place_coin() function." )
 
 
 ## Step One
