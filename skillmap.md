@@ -81,15 +81,15 @@
 * name: Congrats!
 * kind: completion
 * type: certificate
-* url: /static/img/certificates/beginner-cert-03.pdf
-* imageUrl: /static/img/certificates/beginner-cert-03.png
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
 * position: 4 0
 * rewards:
     * certificate:
-        * url: /static/img/certificates/beginner-cert-03.pdf
-        * preview: /static/img/certificates/beginner-cert-03.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
     * completion-badge:
-        * image: /static/img/badges/badge-dino.png
+        * image: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/badge-dino.png
         * name: Basic Robot
 
 
