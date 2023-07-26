@@ -26,6 +26,7 @@ robot.place_coin()
 ## Step Three
 
 Put 4 coins on the tilemap located as you see in the image.
+![Place the coins here](/static/place-coin-robot.gif "Using the place_coin() function" )
 
 ```assetjson
 {
