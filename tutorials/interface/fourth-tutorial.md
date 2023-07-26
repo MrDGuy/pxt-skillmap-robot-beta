@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 You will practice moving and turning the robot to place coins at a specific location.
-![Place the coins here](/static/place-coin-robot.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif "Using the place_coin() function" )
 
 
 
@@ -17,16 +17,26 @@ robot.begin_screen()
 
 ## Step Two
 
+Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.
+
+```python
+robot.move_forward()
+robot.turn_right()
+robot.turn_left()
+```
+
+## Step Three
+
 Move the robot to the location you would like to put a coin.  Next use the ``||robot:place coin ||`` code have a coin appear at the current location of the robot.
 
 ```python
 robot.place_coin()
 ```
 
-## Step Three
+## Step Four
 
 Put 4 coins on the tilemap located as you see in the image.
-![Place the coins here](/static/place-coin-robot.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/place-coin-robot.gif "Using the place_coin() function" )
 
 ```assetjson
 {
