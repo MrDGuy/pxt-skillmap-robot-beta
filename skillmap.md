@@ -7,6 +7,7 @@
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
 * highlightcolor: #FF8135
+* completednodecolor: #FFF609
 
 ## basic-robot
 * name: Learning to move the robot
