@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 You will practice moving and turning the robot to place coins at a specific location.
-![Place the coins here](/static/place_coin_robot.gif "Using the place_coin() function" )
+![Place the coins here](/static/place-coin-robot.gif "Using the place_coin() function" )
 
 
 
