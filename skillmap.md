@@ -93,4 +93,42 @@
         * image: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/badge-dino.png
         * name: Basic Robot
 
+## basic-tilemap
+* name: Learning how to use and create tilemaps
+* description: This will teach you how to use a create tiles and tilemaps to customize the robot's world.
+* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
+* layout: manual
+
+## tilemap-activity1
+* name: Generate the tilemap before you begin the robot screen
+* type: tutorial
+* description: Write the code to generate a tilemap
+* tags: easy, tilemaps
+* next: tilemap-activity2
+* position: 0 2
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-1
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
+
+## tilemap-activity2
+* name: Customize a tilemap
+* type: tutorial
+* description: Write the code to customize a tilemap
+* tags: easy, tilemaps
+* next: tilemap-activity3
+* position: 1 2
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-2
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
+
+## tilemap-activity3
+* name: Customize a tile
+* type: tutorial
+* description: Write the code to customize a tile
+* tags: easy, tilemaps
+* next: tilemap-activity3
+* position: 1 2
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
 
