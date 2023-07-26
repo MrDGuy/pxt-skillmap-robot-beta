@@ -1,8 +1,8 @@
 # robot-test-2
 * name: Coding the Robot in Python
 * description: Learns the basics of python using the robot to move through the tilemap.
-* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/skillmap-background-2.png
+* bannerUrl: /static/first-tutorial-robot-test-2.png
+* backgroundurl: /static/skillmap-background-2.png
 * primarycolor: #8E2EC4
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
@@ -23,7 +23,7 @@
 * next: basic-activity2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/first-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/first-tutorial-robot-test-2.png
+* imageUrl: /static/first-tutorial-robot-test-2.png
 
 ### basic-activity2
 
@@ -34,7 +34,7 @@
 * next: basic-activity3
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/second-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/seond-tutorial-robot-test-2.png
+* imageUrl: /static/seond-tutorial-robot-test-2.png
 
 
 ### basic-activity3
@@ -43,8 +43,19 @@
 * type: tutorial
 * description: Help the robot reach the goal and avoid the walls while picking up coins
 * tags: easy
+* next: basic-activity4
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/third-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/img/interface/third-tutorial-robot-test-2.gif
+* imageUrl: /static/third-tutorial-robot-test-2.gif
+
+### basic-activity4
+
+* name: Place Coins with the robot
+* type: tutorial
+* description: Place the coins as you see
+* tags: easy
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/fourth-tutorial
+* imageUrl: /static/place-coin-robot.gif
 
 
