@@ -126,8 +126,7 @@
 * type: tutorial
 * description: Write the code to customize a tile
 * tags: easy, tilemaps
-* next: tilemap-activity3
-* position: 1 2
+* position: 2 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-3
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
