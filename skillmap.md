@@ -99,7 +99,7 @@
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
 
-## tilemap-activity1
+### tilemap-activity1
 * name: Generate the tilemap before you begin the robot screen
 * type: tutorial
 * description: Write the code to generate a tilemap
@@ -110,7 +110,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/first-tutorial-robot-test-2.gif
 
-## tilemap-activity2
+### tilemap-activity2
 * name: Customize a tilemap
 * type: tutorial
 * description: Write the code to customize a tilemap
@@ -121,7 +121,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-3.gif
 
-## tilemap-activity3
+### tilemap-activity3
 * name: Customize a tile
 * type: tutorial
 * description: Write the code to customize a tile
