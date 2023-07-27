@@ -3,10 +3,12 @@
 ## Introduction @unplugged
 
 This tutorial introduces the Tilemap code which is needed to begin your robot screen.
+![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
 
 ## Step One
 
 Use the ``||tiles:set current tilemap to map ||`` code to start your robot on the start tile and set up the tilemap.
+![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
 
 ```python
 tiles.load_map(tiles.create_map(tilemap(""" """)))
