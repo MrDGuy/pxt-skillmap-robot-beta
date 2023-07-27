@@ -14,12 +14,18 @@ tiles.load_map(tiles.create_map(tilemap(""" """)))
 
 ## Step Two
 
-Click the map icon and create a tilemap with tiles from "my tiles" and the "gallery".  You must have at only one orange startTile and at least one blue goalTile.
+Click the map icon and create a tilemap with tiles from "my tiles" and the "gallery".  
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif "Customize Tilemap" )
+
+Change the dimensions to 10 x 7.  
+![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-2.png "10x7 Tilemap" )
+
+You must have only one orange startTile and at least one blue goalTile.
 
 ## Step Three
 
 Click the walls tool to create walls around the edge and any walls you want inside your robot's world.  If you choose to make walls in your world make sure they are different from the non-wall tiles.
-
+![Add walls](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-3.gif "Add walls" )
 
 ## Step Four
 
