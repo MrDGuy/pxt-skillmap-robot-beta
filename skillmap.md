@@ -89,9 +89,6 @@
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
-    * completion-badge:
-        * image: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/badge-dino.png
-        * name: Basic Robot
 
 ## basic-tilemap
 * name: Learning how to use and create tilemaps
