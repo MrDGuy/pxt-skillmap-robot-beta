@@ -126,8 +126,33 @@
 * type: tutorial
 * description: Write the code to customize a tile
 * tags: easy, tilemaps
+* next: tilemap-activity3
 * position: 2 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-tile-3.gif
+  
+
+### tilemap-activity4
+* name: Setting location of coins on a tilemap then collecting them
+* type: tutorial
+* description: Create a custome coinTile then place them on your tilemaps
+* tags: easy, tilemaps
+* next: tilemap-cert
+* position: 3 2
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-4
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/third-tutorial-robot-test-2.gif
+
+### tilemap-cert
+* name: Congrats!
+* kind: completion
+* type: certificate
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.png
+* position: 4 3
+* rewards:
+    * certificate:
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificates.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.png
 
