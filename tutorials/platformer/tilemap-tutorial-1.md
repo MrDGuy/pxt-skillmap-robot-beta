@@ -20,6 +20,7 @@ tiles.load_map(tiles.create_map(tilemap(""" """)))
 ![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
 hint~
 
+---
 
 ## Step Two
 
