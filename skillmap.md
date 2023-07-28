@@ -108,7 +108,7 @@
 * position: 0 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/first-tutorial-robot-test-2.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif
 
 ### tilemap-activity2
 * name: Customize a tilemap
