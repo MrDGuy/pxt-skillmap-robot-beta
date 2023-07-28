@@ -133,7 +133,7 @@
 ### tilemap-activity4
 * name: Setting location of coins on a tilemap then collecting them
 * type: tutorial
-* description: Create a custome coinTile then place them on your tilemaps
+* description: Create a custom coinTile then place them on your tilemaps
 * tags: easy, tilemaps
 * next: tilemap-cert
 * position: 3 2
