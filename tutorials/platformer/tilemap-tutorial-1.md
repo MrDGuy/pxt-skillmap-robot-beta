@@ -13,16 +13,20 @@ Use the ``||tiles:set current tilemap to map ||`` code to start your robot on th
 tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
+## Step Two
+
+Click the map icon and then click My Assets to upload level1 as the current tilemap.
+
 ~hint Click here to see how 🕵🏽
 
 ---
 
-![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif "Upload Tilemap" )
+![Upload your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-4.gif "Upload Tilemap" )
 hint~
 
 ---
 
-## Step Two
+## Step Three
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
@@ -30,7 +34,7 @@ Use the ``||robot:begin screen ||`` code to start your robot on the start tile a
 robot.begin_screen()
 ```
 
-## Step Three
+## Step Four
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
 
