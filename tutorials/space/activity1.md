@@ -1,174 +1,141 @@
-# Space Explorer
-
+# Variable Tilemaps
 
 ## Introduction @unplugged
 
-** Let's explore the depths of space! **
+This tutorial teaches you how to save tilemaps under variable names to be used later.
+![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Variable Tilemaps" )
 
-In this tutorial, you'll design a spaceship for your journey.
+## Step One
 
-![Flying through space](/static/skillmap/space/space1.gif "Blasting through a starfield" )
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level1.
 
-## Set the scene
-**Give 'em something to look at** 🔭
-
----
-
-
-🔲 Drag the ``||scene:start screen [confetti] effect ⊕||`` from the  ``||scene:Scene||`` category and
-into the ``||loops:on start||`` block that's already in the workspace.
-
-🔲 Next, select ``||scene:star field||`` (instead of ``||scene:confetti||``) from the dropdown
-and watch as you blast into space! 🚀 
-
-
----
-
-
-```blocks
-// @highlight
-effects.starField.startScreenEffect()
+```python
+tiles.create_map(tilemap("""level1"""))
 ```
 
+## Step Two
 
+After that in the front of the line of code write "tile_map1 =".
 
-## Draw your ship
-**🧑🏿‍🚀 Time to choose our ship! 👩🏾‍🚀**
-
----
-
-🔲 From the ``||sprites:Sprites||`` category, drag the ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` 
-block  and place it at the end of the ``||loops:on start||`` container.
-
-🔲 Click on the grey box in the middle of your
- ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` block
-to design a ship of your own! Are you a rusty pile of scraps or a sleek, futuristic rocket?
-
----
-
-**Tip:** Don't feel like drawing your ship? Once you're in the sprite editor,
-flip to the gallery and choose from premade images.
-
-```blocks
-effects.starField.startScreenEffect()
-// @highlight
-let mySprite = sprites.create(img`
-    . . . . . . . 9 9 . . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . 9 . 9 9 9 9 9 9 . 9 . . .
-    . . . 9 . 9 . . . . 9 . 9 . . .
-    . . 9 . 9 9 . 9 9 . 9 9 . 9 . .
-    . . 9 . 9 9 . . . . 9 9 . 9 . .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    9 . 9 9 9 9 9 9 9 9 9 9 9 9 . 9
-    9 . . . . . . . . . . . . . . 9
-    9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
-`, SpriteKind.Player)
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
 ```
 
-## Control your ship
+## Step Three
 
-🌟 Let's get your ship moving 🌟
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level2.
 
----
-
-🔲 Find the ``||controller:move [mySprite] with buttons ⊕||`` block 
-and drag it into the bottom of the ``||loops:on start||`` container. 
-
-** Now try moving your ship around in the simulator! **  
-Your ship will move with the joystick, arrow keys, or **W A S D** keys.  
-
-
-
-```blocks
-effects.starField.startScreenEffect()
-let mySprite = sprites.create(img`
-    . . . . . . . 9 9 . . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . 9 . 9 9 9 9 9 9 . 9 . . .
-    . . . 9 . 9 . . . . 9 . 9 . . .
-    . . 9 . 9 9 . 9 9 . 9 9 . 9 . .
-    . . 9 . 9 9 . . . . 9 9 . 9 . .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    9 . 9 9 9 9 9 9 9 9 9 9 9 9 . 9
-    9 . . . . . . . . . . . . . . 9
-    9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
-`, SpriteKind.Player)
-// @highlight
-controller.moveSprite(mySprite)
+```python
+tiles.create_map(tilemap("""level2"""))
 ```
 
-## Stay in screen
+## Step Four
 
-**Uh-oh, if you move off screen, your ship disappears!**
+After that in the front of the line of code write "tile_map2 =".
 
----
-
-🔲 To keep your ship from exploring beyond the edges, find
- the ``||sprites:set [mySprite] stay in screen <on>||`` block and
-snap it in at the end of the program.
- 
-
-
-```blocks
-effects.starField.startScreenEffect()
-let mySprite = sprites.create(img`
-    . . . . . . . 9 9 . . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . . 9 . . 9 . . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . . 9 . 9 9 . 9 . . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . . 9 . 9 9 9 9 . 9 . . . .
-    . . . 9 . 9 9 9 9 9 9 . 9 . . .
-    . . . 9 . 9 . . . . 9 . 9 . . .
-    . . 9 . 9 9 . 9 9 . 9 9 . 9 . .
-    . . 9 . 9 9 . . . . 9 9 . 9 . .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    . 9 . 9 9 9 . 9 9 9 9 9 9 . 9 .
-    9 . 9 9 9 9 9 9 9 9 9 9 9 9 . 9
-    9 . . . . . . . . . . . . . . 9
-    9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9
-`, SpriteKind.Player)
-controller.moveSprite(mySprite)
-// @highlight
-mySprite.setStayInScreen(true)
-
+```python
+tile_map2 = tiles.create_map(tilemap("""level2"""))
 ```
 
-
-## Finale @unplugged
-
-**Great Job!**
+~hint Click here to see how 🕵🏽
 
 ---
 
-Now be sure to play your game on the simulator
-before you click finish on the tutorial.  
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
+hint~
 
-![You in space](/static/skillmap/space/space1end.gif "Blasting through your own game" )
+---
 
-Is everything how you want it? You can always go back and edit steps if you find out 
-that you'd like them to work differently.
+## Step Five
+
+Load the tilemap tile_map1
+
+```python
+tiles.load_map(tile_map1)
+```
+
+~hint Click here to see how 🕵🏽
+
+---
+
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
+hint~
+
+---
 
 
+## Step Five
 
-## Byeeee
+Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
-** 🚀 That's it! 🚀**
+```python
+robot.begin_screen()
+```
 
-You're all set to travel the universe!
+## Step Six
 
-Click **"Finish"** so you can publish your game to share with family and friends.
+Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
+
+```python
+robot.move_forward()
+robot.turn_right()
+robot.turn_left()
+```
+
+## Step Seven
+
+Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
+
+```python
+tiles.load_map(tile_map2)
+```
+
+~hint Click here to see how 🕵🏽
+
+---
+
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
+hint~
+
+---
+
+## Step Eight
+
+Use the ``||robot:begin screen ||`` code AGAIN after you load the tile_map2 to start your robot on the start tile and set up the tilemap on the new tilemap.
+
+```python
+robot.begin_screen()
+```
+
+## Step Nine
+
+Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile of the second tilemap.
+
+```python
+robot.move_forward()
+robot.turn_right()
+robot.turn_left()
+```
+
+```assetjson
+{
+  "README.md": " ",
+  "assets.json": "",
+  "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"pxt-on-start\" x=\"0\" y=\"0\"></block></xml>",
+  "main.py": "# ...",
+  "main.ts": "\n",
+  "pxt.json": "{\n    \"name\": \"Non Git Hub Robot Tile and Tilemap Assets - Copy\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"device\": \"*\",\n        \"tilemaps\": \"github:microsoft/pxt-tilemaps#v1.12.0\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\",\n        \"assets.json\",\n        \"tilemap.g.jres\",\n        \"tilemap.g.ts\",\n        \"main.py\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v1.13.30\",\n        \"tag\": \"v1.13.30\",\n        \"commits\": \"https://github.com/microsoft/pxt-arcade/commits/4e9a9f1f821251b14f74e4d41eac7c10db87224e\",\n        \"target\": \"1.13.30\",\n        \"pxt\": \"9.1.6\"\n    },\n    \"preferredEditor\": \"pyprj\"\n}\n",
+  "tilemap.g.jres": "{\n    \"tile1\": {\n        \"data\": \"hwQQABAAAAD//////////09ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPT//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"startTile\"\n    },\n    \"tile2\": {\n        \"data\": \"hwQQABAAAAD//////////4+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPj//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"goalTile\"\n    },\n    \"tile3\": {\n        \"data\": \"hwQQABAAAAD//////////x8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfH//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"floorTile\"\n    },\n    \"tile4\": {\n        \"data\": \"hwQQABAAAAD//////////393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/f//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"coinTile\"\n    },\n    \"transparency16\": {\n        \"data\": \"hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true\n    },\n    \"tile5\": {\n        \"data\": \"hwQQABAAAAD//////////7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/v//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"wallTile\"\n    },\n    \"level1\": {\n        \"id\": \"level1\",\n        \"mimeType\": \"application/mkcd-tilemap\",\n        \"data\": \"MTAwYTAwMDcwMDA0MDUwNTBjMDUwNTBjMDUwNTA2MGExMDAzMTAxMTExMTAwMzAyMDcwYTAzMDMwMzExMTExMDExMTEwNzBmMDMxMTAzMTExMTEwMDMwMzBlMGEwMzExMDMxMTEwMTExMTAzMDcwYTAxMTEwMzAzMDMxMDAzMDMwNzA5MGIwYjBkMGIwYjBkMGIwYjA4MjIyMjIyMjIyMjAyMDAyMjAwMjAwMjAwMjIyMDIyMDIwMjIyMDAyMDAyMDIwMjIyMjAwMjAyMDAwMDIwMjIyMjIyMjIyMg==\",\n        \"tileset\": [\n            \"myTiles.transparency16\",\n            \"myTiles.tile1\",\n            \"myTiles.tile2\",\n            \"myTiles.tile3\",\n            \"sprites.dungeon.greenOuterNorthWest\",\n            \"sprites.dungeon.greenOuterNorth0\",\n            \"sprites.dungeon.greenOuterNorthEast\",\n            \"sprites.dungeon.greenOuterEast0\",\n            \"sprites.dungeon.greenOuterSouthWest\",\n            \"sprites.dungeon.greenOuterSouthEast\",\n            \"sprites.dungeon.greenOuterWest0\",\n            \"sprites.dungeon.greenOuterSouth1\",\n            \"sprites.dungeon.greenOuterNorth2\",\n            \"sprites.dungeon.greenOuterSouth2\",\n            \"sprites.dungeon.greenOuterEast2\",\n            \"sprites.dungeon.greenOuterWest2\",\n            \"myTiles.tile4\",\n            \"myTiles.tile5\"\n        ],\n        \"displayName\": \"level1\"\n    },\n    \"level2\": {\n        \"id\": \"level2\",\n        \"mimeType\": \"application/mkcd-tilemap\",\n        \"data\": \"MTAwYTAwMDcwMDA0MDUwNTBjMDUwNTBjMDUwNTA2MGExMDExMTEwMzAzMDMxMTAyMDcwYTAzMDMwMzAzMTExMDExMDMwNzBmMTExMTExMDMxMTAzMTExMDBlMGEwMzAzMDMwMzExMTAxMTEwMDcwYTAxMTExMTExMTEwMzEwMTAwNzA5MGIwYjBkMGIwYjBkMGIwYjA4MjIyMjIyMjIyMjAyMjIwMDIwMjAwMjAwMjAyMDIwMjIyMjIwMjAyMDAyMDAyMDIwMjAwMjIyMjIwMDIwMjIyMjIyMjIyMg==\",\n        \"tileset\": [\n            \"myTiles.transparency16\",\n            \"myTiles.tile1\",\n            \"myTiles.tile2\",\n            \"myTiles.tile3\",\n            \"sprites.dungeon.greenOuterNorthWest\",\n            \"sprites.dungeon.greenOuterNorth0\",\n            \"sprites.dungeon.greenOuterNorthEast\",\n            \"sprites.dungeon.greenOuterEast0\",\n            \"sprites.dungeon.greenOuterSouthWest\",\n            \"sprites.dungeon.greenOuterSouthEast\",\n            \"sprites.dungeon.greenOuterWest0\",\n            \"sprites.dungeon.greenOuterSouth1\",\n            \"sprites.dungeon.greenOuterNorth2\",\n            \"sprites.dungeon.greenOuterSouth2\",\n            \"sprites.dungeon.greenOuterEast2\",\n            \"sprites.dungeon.greenOuterWest2\",\n            \"myTiles.tile4\",\n            \"myTiles.tile5\"\n        ],\n        \"displayName\": \"level2\"\n    },\n    \"*\": {\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"dataEncoding\": \"base64\",\n        \"namespace\": \"myTiles\"\n    }\n}",
+  "tilemap.g.ts": "// Auto-generated code. Do not edit.\nnamespace myTiles {\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile1 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile2 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile3 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile4 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const transparency16 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile5 = image.ofBuffer(hex``);\n\n    helpers._registerFactory(\"tilemap\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"level1\":\n            case \"level1\":return tiles.createTilemap(hex`0a0007000405050c05050c0505060a1003101111100302070a0303031111101111070f03110311111003030e0a0311031110111103070a011103030310030307090b0b0d0b0b0d0b0b08`, img`\n2 2 2 2 2 2 2 2 2 2 \n2 . . . 2 2 . . . 2 \n2 . . . 2 2 . 2 2 2 \n2 . 2 . 2 2 . . . 2 \n2 . 2 . 2 . 2 2 . 2 \n2 . 2 . . . . . . 2 \n2 2 2 2 2 2 2 2 2 2 \n`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterWest2,myTiles.tile4,myTiles.tile5], TileScale.Sixteen);\n            case \"level2\":\n            case \"level2\":return tiles.createTilemap(hex`0a0007000405050c05050c0505060a1011110303031102070a0303030311101103070f11111103110311100e0a0303030311101110070a011111111103101007090b0b0d0b0b0d0b0b08`, img`\n2 2 2 2 2 2 2 2 2 2 \n2 . 2 2 . . . 2 . 2 \n2 . . . . 2 . 2 . 2 \n2 2 2 2 . 2 . 2 . 2 \n2 . . . . 2 . 2 . 2 \n2 . 2 2 2 2 . . . 2 \n2 2 2 2 2 2 2 2 2 2 \n`, [myTiles.transparency16,myTiles.tile1,myTiles.tile2,myTiles.tile3,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterWest2,myTiles.tile4,myTiles.tile5], TileScale.Sixteen);\n        }\n        return null;\n    })\n\n    helpers._registerFactory(\"tile\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"startTile\":\n            case \"tile1\":return tile1;\n            case \"goalTile\":\n            case \"tile2\":return tile2;\n            case \"floorTile\":\n            case \"tile3\":return tile3;\n            case \"coinTile\":\n            case \"tile4\":return tile4;\n            case \"transparency16\":return transparency16;\n            case \"wallTile\":\n            case \"tile5\":return tile5;\n        }\n        return null;\n    })\n\n}\n// Auto-generated code. Do not edit.\n"
+}
+```
+
+```customts
+    game.onUpdate(function () {
+        if (robot.goalReached()) {
+            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
+            game.splash("You reached the goal!")
+            game.reset()
+        }
+    })
+```
