@@ -85,7 +85,7 @@
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
 * next: tilemap-activity1
-* position: 4 0
+* position: 5 1
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
@@ -99,7 +99,7 @@
 * description: Write the code to generate a tilemap
 * tags: easy, tilemaps
 * next: tilemap-activity2
-* position: 0 2
+* position: 5 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-1.gif
@@ -110,7 +110,7 @@
 * description: Write the code to customize a tilemap
 * tags: easy, tilemaps
 * next: tilemap-activity3
-* position: 1 2
+* position: 4 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-3.gif
@@ -121,7 +121,7 @@
 * description: Write the code to customize a tile
 * tags: easy, tilemaps
 * next: tilemap-activity4
-* position: 2 2
+* position: 3 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-3
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-tile-3.gif
@@ -133,7 +133,7 @@
 * description: Create a custom coinTile then place them on your tilemaps
 * tags: easy, tilemaps
 * next: tilemap-cert
-* position: 3 2
+* position: 2 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/tilemap-tutorial-4
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/third-tutorial-robot-test-2.gif
@@ -144,9 +144,54 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.png
-* position: 4 3
+* position: 1 2
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificates.pdf
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.png
+     
+### variable-tilemap-activity1
+* name: Variable Tilemaps
+* type: tutorial
+* description: Store tilemaps as variables to be called upon later
+* tags: intermediate, tilemaps, variables
+* next: variable-tilemap-activity2
+* position: 1 3
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/space/variable-tilemap-tutorial-1
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-3.gif
+
+### tilemap-activity2
+* name: Connecting two tilemaps
+* type: tutorial
+* description: Connect two tilemaps together to reach a goal on level 2
+* tags: intermediate, tilemaps, variables
+* next: variable-tilemap-activity3
+* position: 2 3
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemap-tutorial-2
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-4.gif
+
+### tilemap-activity3
+* name: Customize multi-level tilemaps
+* type: tutorial
+* description: Write the code to customize multiple tilemaps.
+* tags: intermediate, tilemaps, variables, custom
+* next: variable-tilemap-cert
+* position: 3 3
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemap-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-4.gif
+
+### variable-tilemap-cert
+* name: Congrats!
+* kind: completion
+* type: certificate
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-certificate.png
+* position: 3 4
+* rewards:
+    * certificate:
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-certificates.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-certificate.png
 
