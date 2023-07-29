@@ -161,7 +161,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/space/variable-tilemap-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-3.gif
 
-### tilemap-activity2
+### variable-tilemap-activity2
 * name: Connecting two tilemaps
 * type: tutorial
 * description: Connect two tilemaps together to reach a goal on level 2
@@ -172,7 +172,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemap-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-4.gif
 
-### tilemap-activity3
+### variable-tilemap-activity3
 * name: Customize multi-level tilemaps
 * type: tutorial
 * description: Write the code to customize multiple tilemaps.
