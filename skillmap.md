@@ -144,6 +144,7 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemaps-certificate.png
+* next: variable-tilemap-activity1
 * position: 1 2
 * rewards:
     * certificate:
