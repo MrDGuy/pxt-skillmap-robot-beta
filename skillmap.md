@@ -158,7 +158,7 @@
 * next: variable-tilemap-activity2
 * position: 1 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/space/variable-tilemap-tutorial-1
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/space/variable-tilemaps-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-3.gif
 
 ### variable-tilemap-activity2
@@ -169,7 +169,7 @@
 * next: variable-tilemap-activity3
 * position: 2 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemap-tutorial-2
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemaps-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-4.gif
 
 ### variable-tilemap-activity3
@@ -180,7 +180,7 @@
 * next: variable-tilemap-cert
 * position: 3 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemap-tutorial-3
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/platformer/variable-tilemaps-tutorial-3
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-4.gif
 
 ### variable-tilemap-cert
