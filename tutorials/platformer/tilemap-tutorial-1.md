@@ -13,7 +13,7 @@ Use the ``||tiles:set current tilemap to map ||`` code to start your robot on th
 tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
-## Step Two
+## Step Two @showhint
 
 Click the map icon and then click My Assets to upload level1 as the current tilemap.
 
