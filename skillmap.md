@@ -84,17 +84,14 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
+* next: tilemap-activity1
 * position: 4 0
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.pdf
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/beginner-cert-03.png
 
-## basic-tilemap
-* name: Learning how to use and create tilemaps
-* description: This will teach you how to use a create tiles and tilemaps to customize the robot's world.
-* completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
-* layout: manual
+
 
 ### tilemap-activity1
 * name: Generate the tilemap before you begin the robot screen
