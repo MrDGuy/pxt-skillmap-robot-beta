@@ -7,7 +7,7 @@ This tutorial introduces the Tilemap code which is needed to begin your robot sc
 
 ## Step One
 
-Use the ``||tiles:set current tilemap to map ||`` code to start your robot on the start tile and set up the tilemap.
+Now click the ``||tiles:tilemaps||`` category and drag in the ``||tiles:set current tilemap to map ||`` code to line 1.
 
 ```python
 tiles.load_map(tiles.create_map(tilemap(""" """)))
@@ -15,7 +15,7 @@ tiles.load_map(tiles.create_map(tilemap(""" """)))
 
 ## Step Two @showhint
 
-Click the map icon and then click My Assets to upload level1 as the current tilemap.
+Click the map icon to the left of the 1 on the margin and then click My Assets and find the "level1" tilemap to upload "level1" as the current tilemap.
 
 ~hint Click here to see how 🕵🏽
 
