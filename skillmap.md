@@ -15,6 +15,17 @@
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
 
+### introduction to Makecode
+
+* name: Learn the Makecode environment
+* type: tutorial
+* description: Learn the basics of tutorials and tools in makecode
+* tags: introduction, tools
+* next: basic-activity1
+* position: 0 0
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-test-2/tutorials/interface/activity1
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot1.png
+
 
 ### basic-activity1
 
