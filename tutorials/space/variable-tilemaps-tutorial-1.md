@@ -1,4 +1,4 @@
-vari# Variable Tilemaps
+# Variable Tilemaps
 
 ## Introduction @unplugged
 
