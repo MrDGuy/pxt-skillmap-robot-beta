@@ -34,7 +34,7 @@ robot.turn_left()
 
 ## Step Four
 
-Now begin dragging in the right order and number of ``||robot:move forward||``, ``||robot:turn right||`` and ``||robot:turn left||`` code commmands to reach the goalTile.  Did you get the music and splash of goal reached?  Congratulations! You made your first program!
+Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robot:turn right||`` and ``||robot:turn left||`` code commmands to reach the goalTile.  Did you get the music and splash of goal reached?  Congratulations! You made your first program!
 
 ```assetjson
 {
