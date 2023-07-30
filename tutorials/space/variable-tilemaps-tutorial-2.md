@@ -32,37 +32,20 @@ tiles.create_map(tilemap("""level2"""))
 ## Step Four
 
 After that in the front of the line of code write "tile_map2 =".
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
 tile_map2 = tiles.create_map(tilemap("""level2"""))
 ```
 
-~hint Click here to see how 🕵🏽
-
----
-
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
-hint~
-
----
-
 ## Step Five
 
 Load the tilemap tile_map1
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
 
 ```python
 tiles.load_map(tile_map1)
 ```
-
-~hint Click here to see how 🕵🏽
-
----
-
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
-hint~
-
----
-
 
 ## Step Six
 
