@@ -10,7 +10,7 @@
 * completednodecolor: #FFF609
 
 ## basic-robot
-* name: Learning to move the robot
+* name: Learning to move the robot and create tilemaps
 * description: This will teach you how to move the robot along the tilemap and collect coins.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
