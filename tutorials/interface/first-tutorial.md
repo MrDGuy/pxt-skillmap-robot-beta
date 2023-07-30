@@ -7,7 +7,7 @@ You will practice moving and turning the robot to reach the goal.
 
 ## Step One
 
-Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
+Click the purple ``||robot||`` category in the toolbox.  Click and drag the ``||robot:begin screen ||`` code to line 1 to the right on your coding environment to start your robot on the start tile and set up the tilemap. Now push the play button on the Arcade Console in the bottom right to test your code. Do you see a map with a purple robot triangle in the lower left?  If so, click next.
 
 ```python
 robot.begin_screen()
@@ -15,25 +15,26 @@ robot.begin_screen()
 
 ## Step Two
 
-Use the ``||robot:move forward||`` block to move the robot.
+Click and drag the ``||robot:move forward||`` code to line 2 move the robot next. Now push the play button on the Arcade Console in the bottom right to test your code. Did the robot move once?  If so, click next.
 
 ```python
+robot.begin_screen()
 robot.move_forward()
 ```
 
-## Step Three
-
-Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` blocks.
+## Step three
+Now you will learn how to turn the robot left and right.  Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Drag a ``||robot:turn right||`` code to line 3 and a ``||robot:turn left||`` code to line 4. Now push the play button on the Arcade Console in the bottom right to test your code. Did the robot move once?  If so, click next.
 
 ```python
+robot.begin_screen()
+robot.move_forward()
 robot.turn_right()
 robot.turn_left()
-
 ```
 
 ## Step Four
 
-Move the robot to the goal square (blue square) to complete the program.
+Now begin dragging in the right order and number of ``||robot:move forward||``, ``||robot:turn right||`` and ``||robot:turn left||`` code commmands to reach the goalTile.  Did you get the music and splash of goal reached?  Congratulations! You made your first program!
 
 ```assetjson
 {
