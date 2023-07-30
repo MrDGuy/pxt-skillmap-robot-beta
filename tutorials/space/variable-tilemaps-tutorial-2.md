@@ -65,7 +65,7 @@ tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
 ## Step Eight
 
-Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the ``||scene||`` category under the tilemaps section.
+Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the ``||scene:scene||`` category under the tilemaps section.
 
 ```python
 def on_overlap_tile(sprite, location):
