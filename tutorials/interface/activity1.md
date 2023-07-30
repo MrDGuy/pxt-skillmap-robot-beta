@@ -69,7 +69,7 @@ Blocks of code can be dragged out from the  [__*toolbox*__](#tools "The strip to
 
 ## Testing your code
 
-🎨 Now get creative 🎨
+Often you should test your code by running it on the console.  The console looks like a portable gaming console on the bottom right.  Click the play button to run the code.
 
 You can test your game whenever you want using the simulator
 to the left!  Use the refresh button (🔄) to reload it, and play your
