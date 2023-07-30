@@ -1,44 +1,16 @@
 # Get to Know MakeCode Arcade 
 
-
-```ghost
-let mySprite: Sprite = null;
-mySprite.startEffect(effects.spray)
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    game.showLongText("The little unicorn walked into the meadow.", DialogLayout.Top)
-    scene.cameraShake(4, 500)
-})
-scene.setBackgroundColor(9)
-scene.setBackgroundImage()
-mySprite.x += 0
-effects.confetti.startScreenEffect()
-effects.confetti.endScreenEffect()
-mySprite.setPosition(70, 80)
-for (let index = 0; index < 4; index++) {
-    controller.moveSprite(mySprite)
-    music.setVolume(20)
-    music.playMelody("- - - - - - - - ", 120)
-}
-game.onUpdateInterval(5000, function () {
-    if (game.askForString("Continue?") == "Y" || game.askForString("Continue?") == "y") {
-        mySprite.say(":)")
-    }
-    game.splash("")
-})
-
-```
-
 ### @explicitHints true
 
 ## Introduction @unplugged
 
-![Psyched Monkey](/static/skillmap/interface/monkey.png "Psyched Monkey is Ready!" )
+![Robot start](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot1.png "Robot Start" )
 
 **Are you ready to start coding your own games?**
 
 Complete this tutorial to learn how to:
 - follow tutorial prompts
-- find blocks in the toolbox
+- find code in the toolbox
 - build code in the workspace
 - run your game on the built-in simulator 
 
@@ -78,227 +50,28 @@ Now let's talk about your [__*workspace*__](#workIt "The area where you build co
 Your workspace is the area below the instructions where you'll connect blocks to build your program. 
 Not all blocks will connect with one another, but we'll talk more about that later.
 
----
-
-🔲 Click inside the text area of the ``||game:splash "___"||`` block 
-and change the current sentence to something a little more exciting.
-
----
-
 **Tip:** Did you notice that the first use of the word __workspace__ had a special look? 
 From time to time, we'll enhance important words. Roll your mouse over them to see a definition.
 
 #### ~ tutorialhint 
-```blocks
-game.splash("I like bananas!")
+```python
+robot.begin_screen()
 ```
 
 ```template
-game.splash("These blocks are in your workspace!")
-
+robot.begin_screen()
 ```
 
-## Meet the Blocks  @unplugged
+## Meet the blocks of code  @unplugged
 
-Blocks can be dragged out from the  [__*toolbox*__](#tools "The strip to the left of your workspace that lists block categories."), 
+Blocks of code can be dragged out from the  [__*toolbox*__](#tools "The strip to the left of your workspace that lists block categories."), 
 
-connected, duplicated, and deleted.
 
-Keep going to learn more about blocks.
-
-![Block Animation](/static/skillmap/interface/use_blocks.gif "Blocks appear, duplicate, and delete." )
-
-
-
-## Your Toolbox
-
-**Blocks you need won't always be in the workspace to start.**
-
-In the instructions, block descriptions for the block you need will 
-often be highlighted in the same color as the toolbox 
-category where they live. 
-
-**For example:** We might use ``||game:splash "___"||`` when 
-we want you to find this:
-
-```block
-game.splash(" ")
-```
-
-This block adds a [__*splash screen*__](#splasht "A full-screen message that shows while a program or level is loading") to your project.
-
-## Your Toolbox 2
-
-
-
-**Let's see how this works**
-
-🔲 Find the 
-``||scene:set background color to [ ]||`` block and snap it at the top of 
-the **on start** container already in the workspace. 
-
-#### ~ tutorialhint 
-```blocks
-scene.setBackgroundColor(0)
-game.splash("My monkey is better than yours")
-```
-
-
-
-## The Exception
-
-Every rule has an exception, so let's look at one of the blocks
-that doesn't share the same color as the category where it lives.
-
-The ``||variables:set [mySprite] to sprite [ ] of kind [Player]||`` block
-is red, but it lives inside the ``||sprites:Sprites||`` category.
-
----
-
-<!-- **Tip:** If you can't find the block you're looking for, try -->
-
-
-🔲 Snap ``||variables:set [my sprite] to sprite [ ] of kind [Player]||`` into the
-end of the **on start** container and 
-play around with it until a [__*sprite*__](#sprote "A 2-D image that moves on the screen") shows on the screen.
-
-*(Roll your mouse over the word __sprite__ above to see a definition.)*
-
----
-
-**Tip:** Drag ``||game:splash "___"||`` out of the ``||loops:on start||`` container
-and drop it back into the toolbox to delete it so your sprite will be revealed!
-
-#### ~ tutorialhint
-
-![Open image editor](/static/skillmap/misc/open-image-editor-small.gif "How to open the image editor." )
-
----
-
-
-
-```blocks
-scene.setBackgroundColor(5)
-let mySprite = sprites.create(img`
-    e e e . . . . e e e . . . . 
-    c d d c . . c d d c . . . . 
-    c b d d f f d d b c . . . . 
-    c 3 b d d b d b 3 c . . . . 
-    f b 3 d d d d 3 b f . . . . 
-    e d d d d d d d d e . . . . 
-    e d f d d d d f d e . b f b 
-    f d d f d d f d d f . f d f 
-    f b d d b b d d 2 f . f d f 
-    . f 2 2 2 2 2 2 b b f f d f 
-    . f b d d d d d d b b d b f 
-    . f d d d d d b d d f f f . 
-    . f d f f f d f f d f . . . 
-    . f f . . f f . . f f . . . 
-    `, SpriteKind.Player)
-```
-
-
-## Container Blocks
-
-**Now let's look at different types of blocks and how to use them.** 
-
-First, there are [__*container blocks*__](#blockIt "Blocks that hold other blocks"). 
-Container blocks have an edge at both the the top and bottom with an open space
-in the middle that allows other blocks to snap inside. Container blocks control 
-*when* the code inside runs. Here is an example:
-
-```blocks
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
-```
----
-
-🔲  Find an ``||controller:on [A] button pressed ||`` container 
-block and drag it into the workspace. You will add to it in the next step.  
-
-#### ~ tutorialhint
-
-```blocks
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    let mySprite: Sprite = null
-})
-```
-
-## Standard Blocks
-
-Next, there are [__*standard blocks*__](#sBlockIt "Single line blocks that make up the majority of most programs"). 
-Standard blocks are single-line blocks with notches at the top and bottom that
-allow them to click-in between other pieces. These blocks run in order from top 
-to bottom within the container that they're placed.
-
-Here is an example of a standard block:
-
-```block
-let mySprite: Sprite = null;
-mySprite.startEffect(effects.spray)
-```
-
----
-
-🔲  Find a ``||sprites:[mySprite] start [spray] effect ||``  
-block and snap it into the  **on A button pressed** container...then 
-choose your own effect!
-
-#### ~ tutorialhint
-```blocks
-let mySprite: Sprite = null;
-
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.startEffect(effects.confetti)
-})
-```
-
-
-
-## Value Blocks
-
-Finally, we have [__*value blocks*__](#aBlockIt "special pieces that provide values for other blocks"). 
-Value blocks are special pieces that add information to other
-blocks. Sometimes they're pointy, sometimes they're rounded,
-but they always need another block to snap into. Value blocks look something like this:
-
-![Value Blocks](/static/skillmap/interface/parameter-blocks.png "This is what the shape of an value block looks like" )
-
----
-
-🔲  Snap a ``||sprites:[mySprite] say [":)"] ||`` block into the end of the
-**on A button pressed** container.
-
-🔲  Find the ``||game: ask for number [" "] ||`` value block and pop it inside to replace **":)"**.
-
----
-
-**Tip:** Value blocks have different shapes 
-depending on what kind of information they add. Each value will only
-fit in certain types of spaces. 
-
-#### ~ tutorialhint
-```blocks
-let mySprite: Sprite = null;
-
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.say(game.askForNumber(""))
-})
-```
-
-## Putting it Together
+## Testing your code
 
 🎨 Now get creative 🎨
 
-Feel free to take a look at the extra blocks we've added into the toolbox. 
-
-It's okay if you don't know what they all do.
-Play around with them and see how they affect your game!
-
----
-
-**Tip:** You can test your game whenever you want using the simulator
+You can test your game whenever you want using the simulator
 to the left!  Use the refresh button (🔄) to reload it, and play your
 game using the buttons you've programmed!  
 
@@ -312,3 +85,31 @@ You've learned everything you need to know to graduate to a new tutorial.
 
 Now you can continue on and learn even more tricks for
 creating games with MakeCode Arcade!  
+
+```assetjson
+{
+  "README.md": " ",
+  "assets.json": "",
+  "images.g.jres": "{\n    \"*\": {\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"dataEncoding\": \"base64\",\n        \"namespace\": \"myImages\"\n    }\n}",
+  "images.g.ts": "// Auto-generated code. Do not edit.\nnamespace myImages {\n\n    helpers._registerFactory(\"image\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n\n        }\n        return null;\n    })\n\n    helpers._registerFactory(\"animation\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n\n        }\n        return null;\n    })\n\n    helpers._registerFactory(\"song\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n\n        }\n        return null;\n    })\n\n}\n// Auto-generated code. Do not edit.\n",
+  "main.blocks": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"pxt-on-start\" x=\"0\" y=\"0\"><statement name=\"HANDLER\"><block type=\"tilemap_loadMap\"><value name=\"map\"><shadow type=\"create_overworld_map\"><field name=\"tilemap\">tilemap`level1`</field><data>{\"commentRefs\":[],\"fieldData\":{\"tilemap\":\"level1\"}}</data></shadow></value><next><block type=\"robot_beginScreen\"></block></next></block></statement></block><block type=\"gameupdate\" x=\"390\" y=\"90\"><statement name=\"HANDLER\"><block type=\"controls_if\"><value name=\"IF0\"><shadow type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></shadow><block type=\"robot_goalReached\"></block></value><statement name=\"DO0\"><block type=\"music_playable_play\"><field name=\"playbackMode\">music.PlaybackMode.UntilDone</field><value name=\"toPlay\"><shadow type=\"music_melody_playable\"><field name=\"melody\">music.baDing</field></shadow><block type=\"music_melody_playable\"><field name=\"melody\">music.powerUp</field></block></value><next><block type=\"gameSplash\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" _expanded=\"0\" _input_init=\"true\"></mutation><value name=\"title\"><shadow type=\"text\"><field name=\"TEXT\">You reached the goal!</field></shadow></value><value name=\"subtitle\"><shadow type=\"text\"><field name=\"TEXT\"></field></shadow></value><next><block type=\"arcade_game_reset\"></block></next></block></next></block></statement></block></statement></block></xml>",
+  "main.py": "tiles.load_map(tiles.create_map(tilemap(\"\"\"level1\"\"\")))",
+  "main.ts": "tiles.loadMap(tiles.createMap(tilemap`level1`))\n",
+  "pxt.json": "{\n    \"name\": \"Basic Template for Code and Asset Creation\",\n    \"description\": \"\",\n    \"dependencies\": {\n        \"device\": \"*\",\n        \"tilemaps\": \"github:microsoft/pxt-tilemaps#v1.12.0\",\n        \"Sprite Grid\": \"github:microsoft/arcade-grid#v1.3.0\",\n        \"Robot Extension\": \"github:MrDGuy/robot-extension#45f0768a5e0c25e4123c6e65e56115a7d468331b\",\n        \"color\": \"*\"\n    },\n    \"files\": [\n        \"main.blocks\",\n        \"main.ts\",\n        \"README.md\",\n        \"assets.json\",\n        \"tilemap.g.jres\",\n        \"tilemap.g.ts\",\n        \"main.py\",\n        \"images.g.jres\",\n        \"images.g.ts\"\n    ],\n    \"targetVersions\": {\n        \"branch\": \"v1.13.26\",\n        \"tag\": \"v1.13.26\",\n        \"commits\": \"https://github.com/microsoft/pxt-arcade/commits/55a70d58dd8d2cfb8363bc6fa31de4c829c33a4d\",\n        \"target\": \"1.13.26\",\n        \"pxt\": \"9.1.3\"\n    },\n    \"preferredEditor\": \"pyprj\",\n    \"palette\": [\n        \"#000000\",\n        \"#FFFFFF\",\n        \"#FF2121\",\n        \"#FF93C4\",\n        \"#FF8135\",\n        \"#FFF609\",\n        \"#249CA3\",\n        \"#78DC52\",\n        \"#003FAD\",\n        \"#87F2FF\",\n        \"#8E2EC4\",\n        \"#A4839F\",\n        \"#5C406c\",\n        \"#E5CDC4\",\n        \"#91463d\",\n        \"#000000\"\n    ]\n}\n",
+  "tilemap.g.jres": "{\n    \"tile1\": {\n        \"data\": \"hwQQABAAAAD//////////09ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPRPRERERERE9E9ERERERET0T0RERERERPT//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"startTile\"\n    },\n    \"tile2\": {\n        \"data\": \"hwQQABAAAAD//////////x8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfEfERERERER8R8RERERERHxHxEREREREfH//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"floorTile\"\n    },\n    \"tile3\": {\n        \"data\": \"hwQQABAAAAD//////////4+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPiPiIiIiIiI+I+IiIiIiIj4j4iIiIiIiPj//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"goalTile\"\n    },\n    \"tile4\": {\n        \"data\": \"hwQQABAAAAD//////////393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/d/d3d3d3d39393d3d3d3f3f3d3d3d3d/f//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"coinTile\"\n    },\n    \"transparency16\": {\n        \"data\": \"hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true\n    },\n    \"tile5\": {\n        \"data\": \"hwQQABAAAAD//////////7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/u/u7u7u7u7+7+7u7u7u7v7v7u7u7u7u/v//////////w==\",\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"tilemapTile\": true,\n        \"displayName\": \"wallTile\"\n    },\n    \"level1\": {\n        \"id\": \"level1\",\n        \"mimeType\": \"application/mkcd-tilemap\",\n        \"data\": \"MTAwYTAwMDcwMDAzMDgwOTBmMDgwODBmMDgwODA3MDQwMTAxMDEwMTAxMDEwMTAyMGEwNDAxMDEwMTAxMDEwMTAxMDEwYTExMDEwMTAxMDEwMTAxMDEwMTEwMDYwMTAxMDEwMTAxMDEwMTAxMGEwNDEyMDEwMTAxMDEwMTAxMDEwYTA1MGMwYzBlMGQwYzBlMGMwYzBiMjIyMjIyMjIyMjAyMDAwMDAwMjAwMjAwMDAwMDIwMDIwMDAwMDAyMDAyMDAwMDAwMjAwMjAwMDAwMDIwMjIyMjIyMjIyMg==\",\n        \"tileset\": [\n            \"myTiles.transparency16\",\n            \"myTiles.tile2\",\n            \"myTiles.tile3\",\n            \"sprites.dungeon.purpleOuterNorthWest\",\n            \"sprites.dungeon.purpleOuterWest0\",\n            \"sprites.dungeon.purpleOuterSouthEast\",\n            \"sprites.dungeon.purpleOuterWest1\",\n            \"sprites.dungeon.purpleOuterNorthEast\",\n            \"sprites.dungeon.purpleOuterNorth0\",\n            \"sprites.dungeon.purpleOuterNorth1\",\n            \"sprites.dungeon.purpleOuterEast1\",\n            \"sprites.dungeon.purpleOuterSouthWest\",\n            \"sprites.dungeon.purpleOuterSouth1\",\n            \"sprites.dungeon.purpleOuterSouth0\",\n            \"sprites.dungeon.purpleOuterSouth2\",\n            \"sprites.dungeon.purpleOuterNorth2\",\n            \"sprites.dungeon.purpleOuterEast2\",\n            \"sprites.dungeon.purpleOuterWest2\",\n            \"myTiles.tile1\"\n        ],\n        \"displayName\": \"level1\"\n    },\n    \"*\": {\n        \"mimeType\": \"image/x-mkcd-f4\",\n        \"dataEncoding\": \"base64\",\n        \"namespace\": \"myTiles\"\n    }\n}",
+  "tilemap.g.ts": "// Auto-generated code. Do not edit.\nnamespace myTiles {\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile1 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile2 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile3 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile4 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const transparency16 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile5 = image.ofBuffer(hex``);\n\n    helpers._registerFactory(\"tilemap\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"level1\":\n            case \"level1\":return tiles.createTilemap(hex`0a0007000308090f08080f0808070401010101010101020a0401010101010101010a110101010101010101100601010101010101010a0412010101010101010a050c0c0e0d0c0e0c0c0b`, img`\n2 2 2 2 2 2 2 2 2 2 \n2 . . . . . . . . 2 \n2 . . . . . . . . 2 \n2 . . . . . . . . 2 \n2 . . . . . . . . 2 \n2 . . . . . . . . 2 \n2 2 2 2 2 2 2 2 2 2 \n`, [myTiles.transparency16,myTiles.tile2,myTiles.tile3,sprites.dungeon.purpleOuterNorthWest,sprites.dungeon.purpleOuterWest0,sprites.dungeon.purpleOuterSouthEast,sprites.dungeon.purpleOuterWest1,sprites.dungeon.purpleOuterNorthEast,sprites.dungeon.purpleOuterNorth0,sprites.dungeon.purpleOuterNorth1,sprites.dungeon.purpleOuterEast1,sprites.dungeon.purpleOuterSouthWest,sprites.dungeon.purpleOuterSouth1,sprites.dungeon.purpleOuterSouth0,sprites.dungeon.purpleOuterSouth2,sprites.dungeon.purpleOuterNorth2,sprites.dungeon.purpleOuterEast2,sprites.dungeon.purpleOuterWest2,myTiles.tile1], TileScale.Sixteen);\n        }\n        return null;\n    })\n\n    helpers._registerFactory(\"tile\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"startTile\":\n            case \"tile1\":return tile1;\n            case \"floorTile\":\n            case \"tile2\":return tile2;\n            case \"goalTile\":\n            case \"tile3\":return tile3;\n            case \"coinTile\":\n            case \"tile4\":return tile4;\n            case \"transparency16\":return transparency16;\n            case \"wallTile\":\n            case \"tile5\":return tile5;\n        }\n        return null;\n    })\n\n}\n// Auto-generated code. Do not edit.\n"
+}
+```
+
+
+```customts
+    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    robot.beginScreen()
+    game.onUpdate(function () {
+        if (robot.goalReached()) {
+            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
+            game.splash("You reached the goal!")
+            game.reset()
+        }
+    })
+```
