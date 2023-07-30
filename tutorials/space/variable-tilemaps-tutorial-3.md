@@ -10,7 +10,7 @@ Create two custom tilemaps that each contain a startTile and one with a connecti
 
 ## Step Two
 
-Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level1.
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then customize a 10x7 tilemap and name it level1.
 
 ```python
 tiles.create_map(tilemap("""level1"""))
@@ -19,6 +19,7 @@ tiles.create_map(tilemap("""level1"""))
 ## Step Three
 
 After that in the front of the line of code write "tile_map1 =".
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
 tile_map1 = tiles.create_map(tilemap("""level1"""))
@@ -26,7 +27,7 @@ tile_map1 = tiles.create_map(tilemap("""level1"""))
 
 ## Step Four
 
-Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level2.
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then then customize a 10x7 tilemap and name it level2.
 
 ```python
 tiles.create_map(tilemap("""level2"""))
@@ -35,36 +36,22 @@ tiles.create_map(tilemap("""level2"""))
 ## Step Five
 
 After that in the front of the line of code write "tile_map2 =".
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
 tile_map2 = tiles.create_map(tilemap("""level2"""))
 ```
 
-~hint Click here to see how 🕵🏽
 
----
-
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
-hint~
-
----
 
 ## Step Six
 
 Load the tilemap tile_map1
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
 
 ```python
 tiles.load_map(tile_map1)
 ```
-
-~hint Click here to see how 🕵🏽
-
----
-
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
-hint~
-
----
 
 
 ## Step Seven
@@ -85,7 +72,7 @@ tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
 ## Step Nine
 
-Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the scene category under the tilemaps section.
+Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the ``||scene||`` category under the tilemaps section.
 
 ```python
 def on_overlap_tile(sprite, location):
