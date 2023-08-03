@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 This tutorial will teach you how to link tilemaps together to have the robot move through multiple levels.
-![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Variable Tilemaps" )
+![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Variable Tilemaps" )
 
 ## Step One
 
@@ -32,7 +32,7 @@ tiles.create_map(tilemap("""level2"""))
 ## Step Four
 
 After that in the front of the line of code write "tile_map2 =".
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
 tile_map2 = tiles.create_map(tilemap("""level2"""))
@@ -41,7 +41,7 @@ tile_map2 = tiles.create_map(tilemap("""level2"""))
 ## Step Five
 
 Load the tilemap tile_map1
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
 
 ```python
 tiles.load_map(tile_map1)
