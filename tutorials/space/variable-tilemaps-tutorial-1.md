@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 This tutorial teaches you how to save tilemaps under variable names to be used later.
-![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Variable Tilemaps" )
+![Setting your two tilemaps to variables](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Variable Tilemaps" )
 
 ## Step One
 
@@ -32,7 +32,7 @@ tiles.create_map(tilemap("""level2"""))
 ## Step Four
 
 After that in the front of the line of code write "tile_map2 =".
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
 tile_map2 = tiles.create_map(tilemap("""level2"""))
@@ -42,7 +42,7 @@ tile_map2 = tiles.create_map(tilemap("""level2"""))
 ## Step Five
 
 Load the tilemap tile_map1
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
 
 ```python
 tiles.load_map(tile_map1)
@@ -70,7 +70,7 @@ robot.turn_left()
 ## Step Seven
 
 Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
-![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
 
 ```python
 tiles.load_map(tile_map2)
