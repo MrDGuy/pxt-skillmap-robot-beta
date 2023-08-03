@@ -47,8 +47,9 @@ click the lightbulb to the right for an extra hint.
 
 Now let's talk about your [__*workspace*__](#workIt "The area where you build code").
 
-Your workspace is the area below the instructions where you'll connect blocks to build your program. 
-Not all blocks will connect with one another, but we'll talk more about that later.
+Your workspace is the area to the right of the instructions where you'll write the code to build your program. 
+
+You will notice the robot.begin_screen() is already written in the workspace as an example.
 
 **Tip:** Did you notice that the first use of the word __workspace__ had a special look? 
 From time to time, we'll enhance important words. Roll your mouse over them to see a definition.
@@ -62,7 +63,7 @@ robot.begin_screen()
 robot.begin_screen()
 ```
 
-## Meet the blocks of code  @unplugged
+## Meet the blocks of code
 
 Blocks of code can be dragged out from the  [__*toolbox*__](#tools "The strip to the left of your workspace that lists block categories."), 
 
