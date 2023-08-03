@@ -19,7 +19,7 @@ Change the dimensions to 10 x 7.
 
 ---
 
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-tile-1.gif "10x7 Tilemap" )
+![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-tile-1.gif "10x7 Tilemap" )
 hint~
 
 
@@ -30,13 +30,13 @@ Now click on the "My Tiles" and then click the plus sign.  You may make a custom
 
 ---
 
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-tile-2.gif  "10x7 Tilemap" )
+![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-tile-2.gif  "10x7 Tilemap" )
 hint~
 ~hint Here is how to make a startTile from the Gallery 🕵🏽
 
 ---
 
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-tile-3.gif  "10x7 Tilemap" )
+![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-tile-3.gif  "10x7 Tilemap" )
 hint~
 
 
@@ -49,7 +49,7 @@ Click the walls tool to create walls around the edge and any walls you want insi
 
 ---
 
-![Add walls](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/tilemap-customize-3.gif "Add walls" )
+![Add walls](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-3.gif "Add walls" )
 hint~
 
 
