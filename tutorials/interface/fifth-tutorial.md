@@ -3,7 +3,7 @@
 ## Introduction @unplugged
 
 You will practice moving and turning the robot to place coins at a specific location to write your first initial in coins. (This is a D because that is my first initial)
-![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
 
 
 
@@ -36,7 +36,7 @@ robot.place_coin()
 ## Step Four
 
 Write your first initial on the tilemap! Reminder: you seea "D" because that it my first initial.
-![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
+![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
 
 ```assetjson
 {
