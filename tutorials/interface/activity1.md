@@ -4,7 +4,7 @@
 
 ## Introduction @unplugged
 
-![Robot start](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-test-2/main/docs/static/robot1.png "Robot Start" )
+![Robot start](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot1.png "Robot Start" )
 
 **Are you ready to start coding your own games?**
 
