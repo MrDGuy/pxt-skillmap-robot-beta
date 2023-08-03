@@ -7,7 +7,7 @@ You will practice moving and turning the robot to reach the goal.
 
 ## Step One
 
-Click the purple ``||robot:robot||`` category in the toolbox.  Click and drag the ``||robot:begin screen ||`` code to line 1 to the right on your coding environment to start your robot on the start tile and set up the tilemap. Now push the play button on the Arcade Console in the bottom right to test your code. Do you see a map with a purple robot triangle in the lower left?  If so, click next.
+Click the purple ``||robot:robot||`` category in the toolbox.  Click and drag the ``||robot:begin screen ||`` code to line 1 to the right on your workspace to start your robot on the start tile and set up the tilemap. Now push the play button on the Arcade Console in the bottom right to test your code. Do you see a map with a purple robot triangle in the lower left?  If so, click next.
 
 ```python
 robot.begin_screen()
