@@ -69,6 +69,7 @@ Use the ``||robot:move forward||`` code to move the robot. Change the direction 
 robot.move_forward()
 robot.turn_right()
 robot.turn_left()
+robot.collect_coin()
 ```
 
 
