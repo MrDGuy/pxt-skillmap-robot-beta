@@ -6,7 +6,7 @@ You will now demonstrate all that you have learned about the robot and tilemaps.
 
 ## Step One
 
-Create two custom tilemaps that each contain a startTile and one with a connection tile and the other with a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1 and the second level2.
+Create two custom tilemaps that each contain a startTile and one with a connection tile and the other with a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1 and the second level2. 
 
 ## Step One
 
