@@ -6,7 +6,7 @@
         "device": "*",
         "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
         "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
-        "Robot Extension": "github:MrDGuy/robot-extension#951fe4e5cb0c0570229f74906bc67ebed57bd3eb"
+        "Robot Extension": "github:MrDGuy/robot-extension#64fbb69d15070ccc00f00226305a636bbd4b9ec2"
     },
     "files": [
         "README.md",
