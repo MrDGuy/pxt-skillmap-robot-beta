@@ -7,6 +7,9 @@ This tutorial will teach you how to link tilemaps together to have the robot mov
 
 ## Step One
 
+Here is a slideshow showing you how to write the code to connect two tilemaps that are already in your assets.
+https://docs.google.com/presentation/d/1wwGC63yzK5odxxmPrGDRB0feoWg_QVoodhmtJrrUJBc/edit?usp=sharing
+
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then My Assets then select level1.
 
 ```python
