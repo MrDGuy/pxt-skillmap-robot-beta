@@ -8,6 +8,9 @@ You will now demonstrate all that you have learned about the robot and tilemaps.
 
 Create two custom tilemaps that each contain a startTile and one with a connection tile and the other with a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1 and the second level2. 
 
+Here is a slideshow showing you how to create custom tilemaps that have a connection tile named door1.
+https://docs.google.com/presentation/d/197ps_WnRzQuTZUjZKKPDIfWs46FLAPVblv8GIuTB6w8/edit?usp=sharing
+
 ## Step One
 
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then Create a custom tilemaps that contains a startTile and a connection tile named door1.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1.
