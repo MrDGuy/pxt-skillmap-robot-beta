@@ -35,7 +35,7 @@ robot.place_coin()
 
 ## Step Four
 
-Write your first initial on the tilemap! Reminder: you seea "D" because that it my first initial.
+Write your first initial on the tilemap! Reminder: you see a "D" because that it my first initial.
 ![Place the coins here](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif "Using the place_coin() function" )
 
 ```assetjson
