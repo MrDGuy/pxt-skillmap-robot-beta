@@ -64,3 +64,10 @@ namespace starterCode{
     })
 }
 ```
+
+```ghost
+robot.beginScreen()
+robot.moveForward()
+robot.turnRight()
+robot.turnLeft()
+```
