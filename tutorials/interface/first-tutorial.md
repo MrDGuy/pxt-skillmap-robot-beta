@@ -52,6 +52,7 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 ```
 
 ```customts
+namespace starterCode{
     tiles.loadMap(tiles.createMap(tilemap`level1`))
     robot.beginScreen()
     game.onUpdate(function () {
@@ -61,4 +62,5 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
             game.reset()
         }
     })
+}
 ```
