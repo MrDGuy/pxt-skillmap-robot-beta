@@ -51,7 +51,7 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 }
 ```
 
-```ghost
+```customts
     tiles.loadMap(tiles.createMap(tilemap`level1`))
     robot.beginScreen()
     game.onUpdate(function () {
