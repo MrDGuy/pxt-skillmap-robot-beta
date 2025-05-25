@@ -1,4 +1,4 @@
-# Meet the robot!
+# Draw your initial!
 
 ## Introduction @unplugged
 
