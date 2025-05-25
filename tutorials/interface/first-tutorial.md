@@ -1,5 +1,7 @@
 # Meet the robot!
 
+### @flyoutOnly true
+
 ## Introduction @unplugged
 
 You will practice moving and turning the robot to reach the goal.
