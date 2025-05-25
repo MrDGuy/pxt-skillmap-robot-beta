@@ -12,7 +12,7 @@ Use the ``||tiles:set current tilemap to map ||`` code to start your robot on th
 tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
-## Step Two @showhint
+## Step Two @showhint @unplugged
 
 Change the dimensions to 10 x 7. 
 ~hint Click here to see how 🕵🏽
@@ -23,7 +23,7 @@ Change the dimensions to 10 x 7.
 hint~
 
 
-## Step Three @showhint
+## Step Three @showhint @unplugged
 
 Now click on the "My Tiles" and then click the plus sign.  You may make a custom tile or use one from the gallery. 
 ~hint Here is how to make a custom startTile 🕵🏽
@@ -46,7 +46,7 @@ You should make as many types of tiles as you would like.  You must make a start
 
 Make a coinTile which is just like a regular tile but named "coinTile" exactly.  Wherever you place this on your tilemap a coin will appear.
 
-## Step Five @showhint
+## Step Five @showhint @unplugged
 
 Click the walls tool to create walls around the edge and any walls you want inside your robot's world.  If you choose to make walls in your world make sure they are different from the non-wall tiles.
 ~hint Here is how to make walls 🕵🏽
