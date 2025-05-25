@@ -1,4 +1,4 @@
-# Meet the robot!
+# Placing Coins
 
 ## Introduction @unplugged
 
