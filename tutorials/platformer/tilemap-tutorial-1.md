@@ -1,5 +1,7 @@
 # Using Tilemaps
 
+### @flyoutOnly true
+
 ## Introduction @unplugged
 
 This tutorial introduces the Tilemap code which is needed to begin your robot screen.
@@ -13,7 +15,7 @@ Now click the ``||tiles:tilemaps||`` category and drag in the ``||tiles:set curr
 tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
-## Step Two @showhint
+## Step Two @showhint @unplugged
 
 Click the map icon to the left of the 1 on the margin and then click My Assets and find the "level1" tilemap to upload "level1" as the current tilemap.
 
