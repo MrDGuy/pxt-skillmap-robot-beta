@@ -75,7 +75,7 @@ robot.turn_left()
 robot.collect_coin()
 ```
 
-## Step Eight
+## Step Eight @unplugged
 
 Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
