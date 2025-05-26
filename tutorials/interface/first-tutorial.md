@@ -55,7 +55,6 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 
 ```customts
   tiles.loadMap(tiles.createMap(tilemap`level1`))
-  robot.beginScreen()
   game.onUpdate(function () {
       if (robot.goalReached()) {
           music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
