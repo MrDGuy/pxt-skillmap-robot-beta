@@ -73,7 +73,7 @@
 * next: basic-activity5
 * position: 3 1
 
-* url https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fourth-tutorial
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fourth-tutorial
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/place-coin-robot.gif
 
 ### basic-activity5
