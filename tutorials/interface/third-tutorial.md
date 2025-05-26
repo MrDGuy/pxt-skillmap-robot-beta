@@ -40,7 +40,6 @@ robot.collect_coin()
 
 ```customts
     tiles.loadMap(tiles.createMap(tilemap`level1`))
-    robot.beginScreen()
     game.onUpdate(function () {
         if (robot.goalReached()) {
             music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
