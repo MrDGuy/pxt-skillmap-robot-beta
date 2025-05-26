@@ -24,7 +24,7 @@
 * next: basic-activity1
 * position: 0 0
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-beta-beta/tutorials/interface/activity1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta-beta/main/docs/static/robot1.png
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/robot1.png
 
 
 ### basic-activity1
