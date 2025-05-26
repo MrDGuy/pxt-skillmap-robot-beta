@@ -46,7 +46,7 @@ tile_map1 = tiles.create_map(tilemap("""level1"""))
 tile_map2 = tiles.create_map(tilemap("""level2"""))
 ```
 
-## Step Five
+## Step Five @unplugged
 
 Load the tilemap tile_map1. Code: tiles.load_map(tile_map1)
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
