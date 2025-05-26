@@ -54,23 +54,15 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 ```
 
 ```customts
-namespace starterCode{
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
-    robot.beginScreen()
-    // Add all tutorial blocks here so the toolbox can be filtered properly
-    function dummy() {
-        robot.moveForward()
-        robot.turnRight()
-        robot.turnLeft()
-    }
-    game.onUpdate(function () {
-        if (robot.goalReached()) {
-            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
-            game.splash("You reached the goal!")
-            game.reset()
-        }
-    })
-}
+  tiles.loadMap(tiles.createMap(tilemap`level1`))
+  robot.beginScreen()
+  game.onUpdate(function () {
+      if (robot.goalReached()) {
+          music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
+          game.splash("You reached the goal!")
+          game.reset()
+      }
+  })
 ```
 
 ```ghost
