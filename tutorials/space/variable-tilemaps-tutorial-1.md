@@ -41,7 +41,7 @@ tile_map2 = tiles.create_map(tilemap("""level2"""))
 ```
 
 
-## Step Five
+## Step Five @unplugged
 
 Load the tilemap tile_map1.  Code: tiles.load_map(tile_map1)
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-5.gif "Customize Tilemap" )
@@ -53,7 +53,7 @@ tiles.load_map(tile_map1)
 ```
 
 
-## Step Five
+## Step Six
 
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
@@ -64,7 +64,7 @@ tiles.load_map(tile_map1)
 robot.begin_screen()
 ```
 
-## Step Six
+## Step Seven
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile.
 
@@ -75,7 +75,7 @@ robot.turn_left()
 robot.collect_coin()
 ```
 
-## Step Seven
+## Step Eight
 
 Once you have reached the goal of the first tilemap, load the tilemap tile_map2.
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif "Customize Tilemap" )
@@ -90,7 +90,7 @@ tiles.load_map(tile_map2)
 ```
 
 
-## Step Eight
+## Step Nine
 
 Use the ``||robot:begin screen ||`` code AGAIN after you load the tile_map2 to start your robot on the start tile and set up the tilemap on the new tilemap.
 
@@ -104,7 +104,7 @@ tiles.load_map(tile_map2)
 robot.begin_screen()
 ```
 
-## Step Nine
+## Step Ten
 
 Use the ``||robot:move forward||`` code to move the robot. Change the direction the robot is facing with the ``||robot:turn right||`` and ``||robot:turn left||`` code.  Move the robot to the goal tile of the second tilemap.
 
