@@ -37,7 +37,8 @@
 * next: basic-activity2
 * position: 0 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/first-tutorial
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/first-tutorial](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/first-tutorial
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/first-tutorial-robot-test-2.png
 
 ### basic-activity2
@@ -49,7 +50,8 @@
 * next: basic-activity3
 * position: 1 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/second-tutorial
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/second-tutorial](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/second-tutorial
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/seond-tutorial-robot-test-2.png
 
 
@@ -62,7 +64,8 @@
 * next: basic-activity4
 * position: 2 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/third-tutorial
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/third-tutorial](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/third-tutorial
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/third-tutorial-robot-test-2.gif
 
 ### basic-activity4
@@ -74,7 +77,8 @@
 * next: basic-activity5
 * position: 3 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fourth-tutorial
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fourth-tutorial](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fourth-tutorial
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/place-coin-robot.gif
 
 ### basic-activity5
@@ -86,7 +90,8 @@
 * next: beginner-cert
 * position: 4 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fifth-tutorial
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fifth-tutorial](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/interface/fifth-tutorial
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/robot-draw-initial.gif
 
 
@@ -113,7 +118,8 @@
 * next: tilemap-activity2
 * position: 5 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-1
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-1](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-1
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/tilemap-customize-1.gif
 
 ### tilemap-activity2
@@ -124,7 +130,7 @@
 * next: tilemap-activity3
 * position: 4 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-2
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-2](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-2)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/tilemap-customize-3.gif
 
 ### tilemap-activity3
@@ -135,7 +141,8 @@
 * next: tilemap-activity4
 * position: 3 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-3
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-3](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-3
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/tilemap-customize-tile-3.gif
   
 
@@ -147,7 +154,8 @@
 * next: tilemap-cert
 * position: 2 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-4
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-4](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/platformer/tilemap-tutorial-4
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/third-tutorial-robot-test-2.gif
 
 ### tilemap-cert
@@ -171,7 +179,8 @@
 * next: variable-tilemap-activity2
 * position: 1 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-1
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-1](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-1 
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/variables-tilemaps-3.gif
 
 ### variable-tilemap-activity2
@@ -182,7 +191,8 @@
 * next: variable-tilemap-activity3
 * position: 2 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-2
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-2](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-2
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/variables-tilemaps-4.gif
 
 ### variable-tilemap-activity3
@@ -193,7 +203,8 @@
 * next: variable-tilemap-cert
 * position: 3 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-3
+* url: [https://github.com/MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-3](http://arcade.makecode.com/#tutorial:MrDGuy/pxt-skillmap-robot-beta/tutorials/space/variable-tilemaps-tutorial-3
+)
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-beta/main/docs/static/variables-tilemaps-4.gif
 
 ### variable-tilemap-cert
