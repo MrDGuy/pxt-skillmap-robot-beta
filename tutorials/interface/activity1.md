@@ -60,7 +60,7 @@ robot.begin_screen()
 ```
 
 ```template
-robot.begin_screen()
+robot.beginScreen()
 ```
 
 ## Meet the blocks of code
