@@ -1,4 +1,4 @@
-# Get to Know MakeCode Arcade 1
+# Get to Know MakeCode Arcade
 
 ### @explicitHints true
 
@@ -16,7 +16,7 @@ Complete this tutorial to learn how to:
 
 Before you know it, you'll have an arcade game of your very own!
 
-## Step 1 
+## step 1 
 
 **⭐Welcome⭐**
 
@@ -103,14 +103,4 @@ creating games with MakeCode Arcade!
 ```
 
 
-```customts
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
-    robot.beginScreen()
-    game.onUpdate(function () {
-        if (robot.goalReached()) {
-            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
-            game.splash("You reached the goal!")
-            game.reset()
-        }
-    })
-```
+
