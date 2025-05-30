@@ -102,5 +102,16 @@ creating games with MakeCode Arcade!
 }
 ```
 
+```template
+    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    robot.beginScreen()
+    game.onUpdate(function () {
+        if (robot.goalReached()) {
+            music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
+            game.splash("You reached the goal!")
+            game.reset()
+        }
+    })
+```
 
 
