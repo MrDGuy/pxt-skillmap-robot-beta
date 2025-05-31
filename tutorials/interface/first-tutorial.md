@@ -53,7 +53,7 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 }
 ```
 
-```customts
+```template
   tiles.loadMap(tiles.createMap(tilemap`level1`))
   game.onUpdate(function () {
       if (robot.goalReached()) {
@@ -64,9 +64,4 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
   })
 ```
 
-```ghost
-robot.beginScreen()
-robot.moveForward()
-robot.turnRight()
-robot.turnLeft()
-```
+
