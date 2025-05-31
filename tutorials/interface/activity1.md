@@ -16,7 +16,7 @@ Complete this tutorial to learn how to:
 
 Before you know it, you'll have an arcade game of your very own!
 
-## step 1 
+## Step 1 
 
 **⭐Welcome⭐**
 
@@ -102,7 +102,8 @@ creating games with MakeCode Arcade!
 }
 ```
 
-```template
+```customts
+namespace tutorialHidden {
     tiles.loadMap(tiles.createMap(tilemap`level1`))
     robot.beginScreen()
     game.onUpdate(function () {
@@ -112,6 +113,6 @@ creating games with MakeCode Arcade!
             game.reset()
         }
     })
+}
 ```
-
 
