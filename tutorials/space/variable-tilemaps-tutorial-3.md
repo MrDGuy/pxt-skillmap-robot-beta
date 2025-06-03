@@ -16,7 +16,7 @@ https://docs.google.com/presentation/d/197ps_WnRzQuTZUjZKKPDIfWs46FLAPVblv8GIuTB
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then Create a custom tilemaps that contains a startTile and a connection tile named door1.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1.
 
 ```python
-tiles.create_map(tilemap("""level1"""))
+assets.tilemap("""level1""")
 ```
 
 ## Step Two
@@ -24,7 +24,7 @@ tiles.create_map(tilemap("""level1"""))
 After that in the front of the line of code write tile_map1 =.
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map1 = assets.tilemap("""level1""")
 ```
 
 ## Step Three
@@ -32,8 +32,8 @@ tile_map1 = tiles.create_map(tilemap("""level1"""))
 Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then Create a custom tilemaps that contains a startTile and a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the second tilemap level2.
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tiles.create_map(tilemap("""level2"""))
+tile_map1 = assets.tilemap("""level1""")
+assets.tilemap("""level2""")
 ```
 
 ## Step Four
@@ -42,8 +42,8 @@ After that in the front of the line of code write tile_map2 =.
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
 ```
 
 ## Step Five @unplugged
@@ -52,9 +52,9 @@ Load the tilemap tile_map1. Code: tiles.load_map(tile_map1)
 ![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 ```
 
 ## Step Six
@@ -62,9 +62,9 @@ tiles.load_map(tile_map1)
 Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 ```
 
@@ -73,9 +73,9 @@ robot.begin_screen()
 Connect the two tilemaps with ``||tiles:connect tilemap1 and tilemap2 by connection ||`` code.  
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 tiles.connect_map_by_id(tilemap1, tilemap2, ConnectionKind.door1)
 ```
@@ -84,9 +84,9 @@ tiles.connect_map_by_id(tilemap1, tilemap2, ConnectionKind.door1)
 Change tiles.connect_map_by_id(tilemap1, tilemap2, ConnectionKind.door1) to tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 ```
@@ -96,9 +96,9 @@ tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the ``||scene:scene||`` category under the tilemaps section.
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
@@ -111,9 +111,10 @@ scene.on_overlap_tile(SpriteKind.player, img(""" """), on_overlap_tile)
 
 Replace the img(""" """) code at the end of the overlap tile code with assets.tile("""door1""")
 
-```pythontile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+```python
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
@@ -127,14 +128,14 @@ scene.on_overlap_tile(SpriteKind.player, assets.tile("""door1"""), on_overlap_ti
 Replace the pass in the on_overlap_tile function with ``||tiles:set current tilemap to map||`` code to load tile_map2. Also, include a new ``||robot:begin screen||`` to load the next level properly.
 
 ```python
-tile_map1 = tiles.create_map(tilemap("""level1"""))
-tile_map2 = tiles.create_map(tilemap("""level2"""))
-tiles.load_map(tile_map1)
+tile_map1 = assets.tilemap("""level1""")
+tile_map2 = assets.tilemap("""level2""")
+tiles.set_current_tilemap(tile_map1)
 robot.begin_screen()
 tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
 
 def on_overlap_tile(sprite, location):
-    tiles.load_map(tile_map2)
+    tiles.set_current_tilemap(tile_map2)
     robot.begin_screen()
 scene.on_overlap_tile(SpriteKind.player, assets.tile("""door1"""), on_overlap_tile)
 ```
