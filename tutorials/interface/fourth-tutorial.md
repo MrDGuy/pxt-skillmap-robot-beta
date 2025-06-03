@@ -54,7 +54,7 @@ Put 4 coins on the tilemap located as you see in the image.
 ```
 
 ```customts
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    tiles.setCurrentTilemap(tilemap`level1`)
     game.onUpdate(function () {
         if (robot.goalReached()) {
             music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
