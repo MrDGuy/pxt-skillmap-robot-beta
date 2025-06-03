@@ -55,7 +55,7 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 
 ```customts
 namespace hiddents {
-  tiles.loadMap(tiles.createMap(tilemap`level1`))
+  tiles.setCurrentTilemap(tilemap`level1`)
   game.onUpdate(function () {
       if (robot.goalReached()) {
           music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
