@@ -54,7 +54,7 @@ Now begin dragging in the right sequence of ``||robot:move forward||``, ``||robo
 ```
 
 ```customts
-namespace hiddents {
+
   tiles.setCurrentTilemap(tilemap`level1`)
   game.onUpdate(function () {
       if (robot.goalReached()) {
@@ -63,7 +63,7 @@ namespace hiddents {
           game.reset()
       }
   })
-}
+
 ```
 
 
