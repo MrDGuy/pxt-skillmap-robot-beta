@@ -103,7 +103,7 @@ creating games with MakeCode Arcade!
 ```
 
 ```customts
-namespace tutorialHidden {
+
     tiles.setCurrentTilemap(tilemap`level1`)
     robot.beginScreen()
     game.onUpdate(function () {
@@ -113,6 +113,6 @@ namespace tutorialHidden {
             game.reset()
         }
     })
-}
+
 ```
 
