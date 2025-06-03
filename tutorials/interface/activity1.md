@@ -104,7 +104,7 @@ creating games with MakeCode Arcade!
 
 ```customts
 namespace tutorialHidden {
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    tiles.setCurrentTilemap(tilemap`level1`)
     robot.beginScreen()
     game.onUpdate(function () {
         if (robot.goalReached()) {
