@@ -30,7 +30,7 @@ robot.turn_left()
 ```
 
 ```customts
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    tiles.setCurrentTilemap(tilemap`level1`)
     game.onUpdate(function () {
         if (robot.goalReached()) {
             music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
