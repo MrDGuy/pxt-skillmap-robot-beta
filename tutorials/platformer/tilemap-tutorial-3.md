@@ -9,7 +9,7 @@ This tutorial teaches you to customize your tilemaps given already created tiles
 Use the ``||tiles:set current tilemap to map ||`` code to start your robot on the start tile and set up the tilemap. Here is a slideshow which shows how to make a custom tilemap: https://docs.google.com/presentation/d/1cawKIOhjpS6RkyLfUtz1jMWu12Km-bZNeiX4x2yisHQ/edit?usp=sharing
 
 ```python
-tiles.load_map(tiles.create_map(tilemap(""" """)))
+tiles.set_current_tilemap(tilemap("""  """))
 ```
 
 ## Step Two @showhint
