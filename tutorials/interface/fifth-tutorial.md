@@ -54,7 +54,7 @@ Write your first initial on the tilemap! Reminder: you see a "D" because that it
 ```
 
 ```customts
-    tiles.loadMap(tiles.createMap(tilemap`level1`))
+    tiles.setCurrentTilemap(tilemap`level1`)
     game.onUpdate(function () {
         if (robot.goalReached()) {
             music.play(music.melodyPlayable(music.powerUp), music.PlaybackMode.UntilDone)
